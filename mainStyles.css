@@ -1,3 +1,11 @@
 h1 {
 	color: green;
 }
+
+#navbar {
+	display: grid;
+}
+
+.nav-item {
+	width: auto;
+}
