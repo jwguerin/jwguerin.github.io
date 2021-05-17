@@ -2,13 +2,30 @@ h1 {
 	color: green;
 }
 
-#navbar {
-	display: grid;
-	max-width: 100%;
-	position: fixed;
-	top: 0;
+body {
+	position: relative;
+	top: 50px;
+	padding: 10px;
 }
 
-.nav-item {
-	width: auto;
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	height: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: green;
+	font-weight: bold;
 }
