@@ -4,6 +4,9 @@ h1 {
 
 #navbar {
 	display: grid;
+	max-width: 100%;
+	position: fixed;
+	top: 0;
 }
 
 .nav-item {
