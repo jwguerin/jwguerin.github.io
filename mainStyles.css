@@ -4,7 +4,8 @@ h1 {
 
 body {
 	position: relative;
-	top: 50px;
+	top: 51px;
+	margin: 5px;
 }
 
 .navbar {
@@ -12,13 +13,25 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	max-width: 100%;
-	width: 100%;
-	position: fixed;
+	width: 98%;
+	position: fixed	;
 	top: 0;
 	height: 50px;
 	border-color: black;
 	border-style: solid;
+	background-color: green;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#active{
+	align-items: center;
+	background-color: darkgray;
+}
+
+.nav-item {
+	background-color: green;
+	justify-content: space-around;
 }
 
 a {
@@ -31,11 +44,24 @@ a:hover {
 	font-weight: bold;
 }
 
-.nav-item {
-	background-color: green;
-}
-
 p {
 	max-width: 100%;
 	padding: 5px;
+}
+
+#proPic {
+	height:200px;
+	width: auto;
+	border-radius: 5px;
+	box-shadow: 4px 4px 2px;
+}
+
+.container{
+	display: flex;
+	width: 50%;
+	padding-left: 10px;
+}
+
+tr {
+	padding: 50px;
 }
