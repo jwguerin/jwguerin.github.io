@@ -1,11 +1,46 @@
-.main{
-	border-style: solid;
-	border-width: 5px;
-	border-color: green;
+a:link{
+	color: black;
+	text-decoration: none;
 }
-
-.navbar{
-	background-color: gray;
+a:visited{
+	color: black;
+	text-decoration: none;
+}
+.content {
+	padding: 5px;
+}
+.main{
+	margin: 0px;
+	padding: 0px;
 	border-style: solid;
-	border-color: red;
+	border-color: green;
+	border-width: 10px;
+	border-radius: 5px;
+}
+.Container{
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	height: 40px;
+	border-color:green;
+}
+.activeItem {
+	background-color: gold;
+	color: white;
+	flex-grow: 1;
+	font-weight: bold;
+	text-align: center;
+}
+.inactiveItem {
+	background-color: green;
+	text-align: center;
+	color: white;
+	flex-grow: 1;
+}
+.activeItem:hover {
+	background-color: gold;
+	font-weight: bold;
+}
+.inactiveItem:hover {
+	background-color: gold;
 }
